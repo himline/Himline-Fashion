@@ -2,11 +2,11 @@
 <%@ page session="false" %>
 <html>
 <head>
-	<title>Home</title>
+	<title>Himline Fashion</title>
 </head>
 <body>
 <h1>
-	Hello world!  
+This is Himline Fashion Project Home Page  
 </h1>
 
 <P>  The time on the server is ${serverTime}. </P>
