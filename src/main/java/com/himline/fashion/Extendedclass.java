@@ -1,10 +1,14 @@
 package com.himline.fashion;
 
 public class Extendedclass extends HomeController {
-void Price(){
-	
+	int cost ;
+	int bar;
+int Price(){
+	return cost;
 }
-void code(){
-	
+int code(){
+	cost= hashCode();
+	bar= cost;
+	return bar;
 }
 }
