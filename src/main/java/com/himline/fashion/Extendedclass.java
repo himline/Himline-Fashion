@@ -9,6 +9,7 @@ int Price(){
 int code(){
 	cost= hashCode();
 	bar= cost;
+//demo class
 	return bar;
 }
 }
