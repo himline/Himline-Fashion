@@ -8,6 +8,7 @@ public class TestArray {
 		a[0] = 10;
 		a[1] = 6;
 		a[2] = 8;
+		// commit to development
 		// value removed 
 
 		for (int i = 0; i < a.length; i++) {
