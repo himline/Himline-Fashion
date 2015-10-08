@@ -8,8 +8,8 @@ public class TestArray01 {
 		a[0] = 10;
 		a[1] = 6;
 		a[2] = 10;
-		a[3] = 15;
-		a[4] = 19;
+		// a[3] = 15;
+		// a[4] = 19;
 				
 		// value removed
 
