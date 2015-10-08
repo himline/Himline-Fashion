@@ -8,6 +8,7 @@ public class Exmpl {
 	public String amar(int x){
 		return "one arguments";
 		//demooo
+		//CHECK 23
 	}
 	public int amar(String x){
 		return 0;
