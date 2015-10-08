@@ -10,11 +10,11 @@ public class TestArray {
 		a[2] = 8;
 		
 		// value removed
-		// shdgfjefhre
+		// branch created
 
 		for (int i = 0; i < a.length; i++) {
 			System.out.println(a[i]);
-			System.out.println(a4);
+			System.out.println(a[2]);
 		}
 	}
 
