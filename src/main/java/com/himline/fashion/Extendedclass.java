@@ -4,6 +4,7 @@ public class Extendedclass extends HomeController {
 	int cost ;
 	int bar;
 int Price(){
+//checkout comit by yuvraj
 	return cost;
 }
 int code(){
