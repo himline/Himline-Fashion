@@ -3,6 +3,7 @@ package com.himline.fashion;
 public class Exmpl {
 	public String amar(){
 		return "no arguments";
+		//hello 
 	}
 	public String amar(int x){
 		return "one arguments";
