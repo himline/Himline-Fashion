@@ -9,6 +9,7 @@ public class TestArray {
 		a[1] = 6;
 		a[2] = 10;
 		// value removed 
+		//hello
 
 		for (int i = 0; i < a.length; --i) {
 			System.out.println(a[i]);
