@@ -6,11 +6,12 @@ public class TestArray {
 
 		int a[] = new int[5];
 		a[0] = 10;
-		a[1] = 6;
-		a[2] = 10;
+		// a[1] = 6;
+		// a[2] = 10;
 		// value removed 
 
-		for (int i = 0; i < a.length; --i) {
+		for (int i = 0; i < a.length; i++)
+		{
 			System.out.println(a[i]);
 			
 		}
