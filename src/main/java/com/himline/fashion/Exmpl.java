@@ -6,7 +6,7 @@ public class Exmpl {
 	}
 	public String amar(int x){
 		return "one arguments";
-		//
+		//demooo
 	}
 	public int amar(String x){
 		return 0;
