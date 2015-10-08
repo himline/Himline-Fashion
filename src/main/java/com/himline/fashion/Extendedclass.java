@@ -5,6 +5,7 @@ public class Extendedclass extends HomeController {
 	int bar;
 int Price(){
 	return cost;
+	// testing sample
 }
 int code(){
 	cost= hashCode();
