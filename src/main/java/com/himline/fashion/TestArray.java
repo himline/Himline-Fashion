@@ -10,7 +10,7 @@ public class TestArray {
 		a[2] = 10;
 		a[3] = 10;
 		a[4] = 10;
-		a[5] = 10;
+		
 		// value removed 
 // value added 
 		for (int i = 0; i < a.length; i++) {
