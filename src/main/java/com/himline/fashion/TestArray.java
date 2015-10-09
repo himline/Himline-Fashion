@@ -8,9 +8,12 @@ public class TestArray {
 		a[0] = 10;
 		a[1] = 6;
 		a[2] = 10;
+		a[3] = 10;
+		a[4] = 10;
+		a[5] = 10;
 		// value removed 
-
-		for (int i = 0; i < a.length; --i) {
+// value added 
+		for (int i = 0; i < a.length; i++) {
 			System.out.println(a[i]);
 			
 		}
