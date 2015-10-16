@@ -9,6 +9,14 @@
 		<param-value>/WEB-INF/spring/root-context.xml</param-value>
 	</context-param>
 	
+	<!-- Create the DB Connection Refference here -->
+	<resource-ref>
+      <description>DatabaseConnection</description>
+      <res-ref-name>jdbc/himlineFashionDS</res-ref-name>
+      <res-type>javax.sql.DataSource</res-type>
+      <res-auth>Container</res-auth>
+   </resource-ref>
+	
 	<!-- Creates the Spring Container shared by all Servlets and Filters -->
 	<listener>
 		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
