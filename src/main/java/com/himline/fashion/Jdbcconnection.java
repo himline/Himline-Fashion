@@ -14,12 +14,11 @@ public class Jdbcconnection {
 			String sql = "SELECT * from hello";
 			ResultSet rs = st.executeQuery(sql);
 			while (rs.next()) {
-				// System.out.println(rs.getString("NAME") +"
-				// "+rs.getString("lastname "));
-				// System.out.println(rs.getString(2) );
-				System.out.println(rs.getNString("NAME") + "   " + rs.getObject("lastname") + "" + rs.getObject("NAME"));
-				con.close();
+
+				System.out.println("NAME:  "+rs.getString(1) + "    LASTNAME:  " + rs.getString(2));
+
 			}
+			con.close();
 		} catch (Exception ex) {
 
 		}
