@@ -7,6 +7,7 @@
 		<!-- the JNDI data source -->
 		<non-jta-data-source>java:comp/env/jdbc/himlineFashionDS</non-jta-data-source>
 		<class>com.himline.fashion.model.SampleModel</class>
+		<class>com.himline.fashion.model.ConfigurationProperty</class>
 		<exclude-unlisted-classes>true</exclude-unlisted-classes> 
 	</persistence-unit>
 </persistence>
